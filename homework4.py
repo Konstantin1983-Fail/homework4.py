@@ -1,0 +1,8 @@
+my_string = input("Введите текст: ")
+print("Длина введенного текста:", len(my_string))
+print("Верхний регистр:", my_string.upper())
+print("Нижний регистр:", my_string.lower())
+my_string_no_spaces = my_string.replace(" ","")
+print("Без пробелов:", my_string_no_spaces)
+print("Первый символ:",my_string[0])
+print("Последний символ:", my_string[-1])
